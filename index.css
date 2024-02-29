@@ -1,5 +1,71 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: aqua;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    max-width: 320px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+img {
+    margin: auto;
+    width: 90px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#input-el {
+    box-sizing: border-box;
+    background-color: #444059;
+    color: #8F8F8F;
+    font-size: 15px;
+    border: 0;
+    border-radius: 8px;
+    height: 118px;
+    width: 100%;
+    align-content: start;
+    resize: none;
+    padding: 10px 20px;
+}
+
+#publish-btn {
+    background-color: #28A9F1;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+#endorsements-el {
+    margin: 0;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 13px;
+    background: #ffffff;
+    color: #1B1924;
+    padding: 15px;
 }
